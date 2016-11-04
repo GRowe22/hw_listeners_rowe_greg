@@ -2,14 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div id="contianer">
 
+        <form>
+            <label>First Name</label>
+            <input name="first-name" placeholder="John">
+
+            <label>Last Name</label>
+            <input name="last-name" placeholder="Doe">
+
+            <label>Email</label>
+            <input name="email" type="email" placeholder="John.Doe@domain.com">
+
+            <label>Message</label>
+            <textarea name="message" placeholder="Type your message here"></textarea>
+
+            <input id="submit-button" name="submit" type="submit" value="Submit">
+        </form>
+
+    </div>
 
 
     <script src="js/main.js"></script>
