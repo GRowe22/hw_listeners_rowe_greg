@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+}
+
+#container {
+    background-color: #012b5a;
+    margin: auto;
+    max-width: 405px;
+    padding: 5px 20px 20px 20px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    color: white;
+    margin: 15px 0 5px 0;
+}
+
+input,
+textarea {
+    width: 400px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#submit-button {
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+}
