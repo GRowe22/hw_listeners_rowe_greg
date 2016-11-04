@@ -1,8 +1,9 @@
-var countClicks = document.getElementById('clicks-h1');
+var heading = document.getElementById('clicks-h1');
+var clickCounter = 0;
 
-function modifyHTML() {
-    var heading = document.getElementById('clicks-h1');
-    heading.innerHTML = 'This is click number';
+function recordClicks() {
+    clickCounter = clickCounter + 1;
+    console.log(clickCounter);
 }
 
-document.getElementById('clicks-h1').addEventListener("click", modifyHTML)
+heading.addEventListener('click', recordClicks);
