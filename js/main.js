@@ -6,11 +6,11 @@ var message = document.getElementById('message');
 
 function formLog() {
     var submitClick = document.getElementById('the-form');
-    submitClick.preventDefault('submit');
+    submitClick.preventDefault();
     console.log('The firstName is: ' + firstName);
     console.log('The lastName is: ' + lastName);
     console.log('The email is: ' + email);
     console.log('The message is: ' + message);
 }
 
-checkForSubmit.addEventListener('submit', formLog);
+checkForSubmit.addEventListener('action', formLog);
