@@ -4,9 +4,8 @@ var lastName = document.getElementById('last-name');
 var email = document.getElementById('email');
 var message = document.getElementById('message');
 
-function formLog() {
-    var submitClick = document.getElementById('the-form');
-    submitClick.preventDefault();
+function formLog(event) {
+    event.preventDefault();
     console.log('The firstName is: ' + firstName);
     console.log('The lastName is: ' + lastName);
     console.log('The email is: ' + email);
