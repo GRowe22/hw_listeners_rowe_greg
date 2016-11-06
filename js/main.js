@@ -13,4 +13,4 @@ function formLog() {
     console.log('The message is: ' + message);
 }
 
-checkForSubmit.addEventListener('action', formLog);
+checkForSubmit.addEventListener('submit', formLog);
